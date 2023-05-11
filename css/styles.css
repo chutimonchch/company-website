@@ -1,0 +1,231 @@
+body {
+    font-family: 'Montserrat', sans-serif;}
+
+#title {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    color:#ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-bold";
+}
+
+h1 { 
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.1rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* .cta-heading */
+.big-heading {
+    font-family: "Montserrat-bold";
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding:3% 15%;
+}
+
+/* Navigation-bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+    color: #ce4a3b;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ce4a3b;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: rgb(211, 117, 107);
+}
+
+.navbar-toggler {
+    border-color: rgb(211, 117, 107);
+    color: #b73535; 
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' \
+xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(211, 117, 107)' stroke-width='2' \
+stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* Change the link color on hover */
+a:hover {
+    color: #ce4a3b;
+}
+
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.download-button:hover {
+    background-color: #ce4a3b;
+}
+
+/* Title image */
+
+.title-image {
+    width: 110%;
+    position: absolute;
+    margin-top: -14%;
+}
+
+/* Features section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #fdbfbf;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #d24434;
+}
+
+.feature-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #d24434;
+}
+
+/* Testimonial section */
+
+#testimonials {
+    text-align: center;
+    background-image: linear-gradient(to top, #D3756B 0%, #ed8181 100%);
+    color: #fff;
+}
+
+.testimonial-text {
+    font-family: 'Sriracha', cursive;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #D3756B;
+}
+
+#pricing {
+    padding: 80px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-family: 'DM Serif Display', serif;
+    line-height: 1.5;
+    color: #D3756B;
+}
+
+.card-header {
+    background-color: #D3756B;
+
+}
+
+.price-option {
+    color: #fff;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* CTA section */
+
+#cta {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: #D3756B;
+}
+
+/* button */
+.btn-price:hover {
+    background-color: #F0997D;
+    outline-color: #fff;
+}
+
